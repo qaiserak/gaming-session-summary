@@ -10,7 +10,7 @@ console.log(`Number of matches lost = ${matchesLost}`);
 if (sessionMinutes <= 120) {
     console.log("The session did not exceed 120 minutes.");
 } else if (sessionMinutes > 120) {
-    console.log("The session exceeded 120 sessionMinutes.");
+    console.log("The session exceeded 120 minutes.");
 }
 
 if (matchesWon > matchesLost) {
