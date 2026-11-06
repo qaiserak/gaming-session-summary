@@ -1,43 +1,89 @@
-# Gaming Session Summary
+# JavaScript Practice Projects
 
-My first independent JavaScript project, created while learning JavaScript.
+A collection of beginner-level JavaScript programs created while learning JavaScript and Node.js.
 
-## About the Project
+This repository documents my progress in JavaScript through small practical exercises covering variables, strings, numbers, conditionals, functions and arrays.
 
-This is a simple Node.js program that generates gaming-session summaries using JavaScript variables, template literals, and string methods.
+## Projects
 
-## Features
+### 1. Gaming Session Summary
+**File:** `gaming-session-summary.js`
 
-- Stores a player name, game title, and playing time.
-- Removes unnecessary whitespace from the player's name.
-- Generates readable gaming-session summaries.
-- Checks whether a summary contains the current game title.
+My first independent JavaScript exercise.
 
-## Concepts Practiced
-
-- `let` and `const`
+Concepts practised:
+- Variables (`let` and `const`)
 - Variable reassignment
-- Template literals and string interpolation
-- The `trim()` method
-- The `includes()` method
-- Console output
-- Running JavaScript with Node.js
+- Template literals
+- String interpolation
+- String methods (`trim()` and `includes()`)
+
+### 2. Gaming Session Checker
+**File:** `gaming-session-checker.js`
+
+A console-based program that evaluates gaming-session information.
+
+Concepts practised:
+- Arithmetic operations
+- Comparison operators
+- Conditional statements
+- Boolean values
+- Logical decision-making
+
+### 3. Gaming Session Analyzer
+**File:** `gaming-session-analyzer.js`
+
+A small reporting program that processes predefined gaming-session data and generates readable summaries.
+
+Concepts practised:
+- Function declarations and function calls
+- Parameters and arguments
+- Return values
+- Conditional logic
+- Combining multiple functions
+
+### 4. Gaming Backlog Manager
+**File:** `gaming-backlog-manager.js`
+
+An array-based program for managing a gaming backlog. Developed as an AI-assisted learning exercise.
+
+Concepts practised:
+- Array methods (`push()`, `splice()`, `includes()` and `indexOf()`)
+- Array copying using spread syntax
+- Functions and conditionals
+- Random selection using `Math.random()`
+- Template literals
+
+## Technologies and Tools
+
+- JavaScript
+- Node.js
+- Visual Studio Code
+- Git
+- GitHub
 
 ## How to Run
 
-1. Install Node.js.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Run the following command:
+1. Install [Node.js](https://nodejs.org/).
+2. Clone or download this repository.
+3. Open the repository folder in your terminal.
+4. Run an individual program using Node.js.
+
+For example:
 
 ```bash
 node gaming-session-summary.js
 ```
 
+Other programs can be executed by replacing the filename with the relevant `.js` file.
+
 ## Current Limitations
 
-The player name, game titles, and playing times are hardcoded in the program. It does not yet accept user input.
+- These are beginner learning exercises, not production applications.
+- Programs primarily use predefined, hardcoded values.
+- They run in the Node.js console and do not have browser-based interfaces.
+- Automated testing has not yet been implemented.
 
-## Status
+## Learning Progress
 
-Completed as an independent beginner JavaScript exercise.
+This repository will be updated as I learn additional JavaScript concepts and develop more practical projects.
