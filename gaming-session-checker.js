@@ -4,7 +4,7 @@ const matchesPlayed = 4;
 const matchesWon = 2;
 const isRanked = true;
 
-let matchesLost = matchesPlayed - matchesWon;
+const matchesLost = matchesPlayed - matchesWon;
 console.log(`Number of matches lost = ${matchesLost}`);
 
 if (sessionMinutes <= 120) {
